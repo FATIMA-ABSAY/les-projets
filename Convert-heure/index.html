@@ -1,0 +1,34 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Convertisseur d'heure</title>
+    </head>
+    <body>
+        <h1>🕒 Convertisseur d'heure entre pays</h1>
+
+        <label for="from">Pays de départ:</label>
+        <select id="from">
+            <option value="Africa/Casablanca">Maroc</option>
+            <option value="Europe/Paris">France</option>
+            <option value="Asia/tokyo">Japon</option>
+            <option value="America/New_York">Etats-Unis (New York)</option>
+        </select>
+
+        <label for="to">Pays d'arrivée:</label>
+        <select id="to">
+            <option value="Europ/Paris">France</option>
+            <option value="Asia/tokyo">Japon</option>
+            <option value="Africa/Casblanka">Maroc</option>
+            <option value="America/New_York">Etats-Unis (New York)</option>
+        </select>
+
+        <label for="timeInput">Heure à convertir:</label>
+        <input type="time" id="timeInput" value="09:00">
+
+        <button onclik="convertTime()">Convertir</button>
+        <p id=""result></p>
+        <script src="script.js"></script>
+    </body>
+</html>
